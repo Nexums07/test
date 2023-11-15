@@ -9,7 +9,7 @@ import stripe
 # Configura a aplicação Flask
 app = Flask(__name__)
 
-# Configura o aplicativo usando a função3 configure_apps
+# Configura o aplicativo usando as função3 configure_apps
 configure_app(app)
 
 # Registra os blueprints
