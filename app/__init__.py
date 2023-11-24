@@ -12,7 +12,7 @@ app = Flask(__name__)
 # Configura o aplicativo usando as função configure_app
 configure_app(app)
 
-# Registra os blueprints
+# Registra os blueprints segue
 app.register_blueprint(deposit_blueprint)
 app.register_blueprint(signup_blueprint)
 
